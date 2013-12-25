@@ -27,6 +27,9 @@
 
 - (void)viewDidLoad
 {
+    self.navigationController.navigationBar.tintColor = [UIColor greenColor];
+    
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
